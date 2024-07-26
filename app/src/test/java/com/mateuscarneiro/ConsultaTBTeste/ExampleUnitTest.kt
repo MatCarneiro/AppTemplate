@@ -1,4 +1,4 @@
-package com.jailton.apptemplateproject
+package com.mateuscarneiro.ConsultaTBTeste
 
 import org.junit.Test
 

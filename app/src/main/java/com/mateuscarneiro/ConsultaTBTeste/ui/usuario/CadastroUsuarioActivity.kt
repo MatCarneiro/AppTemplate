@@ -1,8 +1,6 @@
-package com.jailton.apptemplateproject.ui.usuario
+package com.mateuscarneiro.ConsultaTBTeste.ui.usuario
 
-import android.content.Context
 import android.os.Bundle
-import android.util.AttributeSet
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -11,9 +9,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.jailton.apptemplateproject.MainActivity
-import com.jailton.apptemplateproject.R
-import com.jailton.apptemplateproject.baseclasses.Usuario
+import com.mateuscarneiro.ConsultaTBTeste.MainActivity
+import com.mateuscarneiro.ConsultaTBTeste.R
+import com.mateuscarneiro.ConsultaTBTeste.baseclasses.Usuario
 
 class CadastroUsuarioActivity : AppCompatActivity() {
 
