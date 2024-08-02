@@ -29,6 +29,7 @@ import com.mateuscarneiro.ConsultaTBTeste.ui.usuario.CadastroUsuarioActivity
 
 import com.google.android.gms.auth.api.Auth
 import com.google.android.gms.auth.api.signin.GoogleSignInResult
+import com.mateuscarneiro.ConsultaTBTeste.MainActivity.Companion.usuarioLogado
 
 class LoginActivity : AppCompatActivity() {
 

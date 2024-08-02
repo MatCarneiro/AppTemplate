@@ -10,8 +10,8 @@ import android.util.Log
 import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import com.jailton.apptemplateproject.MainActivity
-import com.jailton.apptemplateproject.R
+import com.mateuscarneiro.ConsultaTBTeste.MainActivity
+import com.mateuscarneiro.ConsultaTBTeste.R
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
 
