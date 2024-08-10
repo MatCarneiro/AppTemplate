@@ -11,23 +11,35 @@ import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-:app/src/main/java/com/mateuscarneiro/ConsultaTBTeste/ui/home/HomeFragment.kt
+import android.widget.Button
+import android.widget.Spinner
+import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-:app/src/main/java/com/mateuscarneiro/ConsultaTBTeste/ui/home/HomeFragment.kt
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationCallback
+import com.google.android.gms.location.LocationRequest
+import com.google.android.gms.location.LocationResult
+import com.google.android.gms.location.LocationServices
+import com.google.android.gms.location.Priority
+import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-:app/src/main/java/com/mateuscarneiro/ConsultaTBTeste/ui/home/HomeFragment.kt
 import com.mateuscarneiro.ConsultaTBTeste.R
 import com.mateuscarneiro.ConsultaTBTeste.baseclasses.Item
 import com.mateuscarneiro.ConsultaTBTeste.baseclasses.StoreAdapter
 import com.mateuscarneiro.ConsultaTBTeste.databinding.FragmentHomeBinding
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.util.Locale
 
 class HomeFragment : Fragment() {
 

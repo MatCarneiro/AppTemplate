@@ -30,7 +30,8 @@ import com.mateuscarneiro.ConsultaTBTeste.ui.usuario.CadastroUsuarioActivity
 import com.google.android.gms.auth.api.Auth
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInResult
-:app/src/main/java/com/mateuscarneiro/ConsultaTBTeste/ui/login/LoginActivity.kt
+import com.google.android.gms.common.SignInButton
+
 import com.mateuscarneiro.ConsultaTBTeste.MainActivity.Companion.usuarioLogado
 
 class LoginActivity : AppCompatActivity() {

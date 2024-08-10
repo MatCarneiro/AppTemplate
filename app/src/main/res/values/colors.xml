@@ -2,9 +2,13 @@
 <resources>
     <color name="yellow_500">#f5e500</color>
     <color name="red_500">#e80300</color>
+    <color name="gray_200">#e80300</color>
+    <color name="gray_500">#e80300</color>
+    <color name="gray_700">#e80300</color>
     <color name="red">#a52500</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="blue">#002545</color>
+    <color name="black">#002545</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
